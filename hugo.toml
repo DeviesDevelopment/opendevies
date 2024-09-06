@@ -1,4 +1,20 @@
-baseURL = 'https://deviesdevelopment.github.io/opendevies/'
+baseURL = 'https://open.devies.se'
 languageCode = 'en-us'
 title = "Devies' open source"
 theme = 'hugo-nederburg-theme'
+
+# Nav links in the side bar
+  [[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+  [[menu.main]]
+  name = "About"
+  url = "about/"
+  weight = 2
+
+  [[menu.main]]
+  name = "Get in touch"
+  url = "https://www.devies.se/contact/"
+  weight = 3
