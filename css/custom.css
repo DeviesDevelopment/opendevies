@@ -94,7 +94,7 @@ body {
   font-family: "raleway", sans-serif;
   line-height: 1.5;
   color: #4d4d4d;
-  background: #38312f;
+  background: rgba(0,115,150,1);
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
   -ms-word-wrap: break-word;
@@ -108,7 +108,7 @@ body {
 }
 
 .main {
-  background: #38312f;
+  background: rgba(0,115,150,1);
   padding-bottom: 1.5em;
   margin: 0 auto;
 }
@@ -428,8 +428,8 @@ a img {
 .blog .main,
 .archive .main,
 .search .main {
-  width: 88.89%;
-  max-width: 1280px;
+  width: 100%;
+  /* max-width: 1280px; */
 }
 .blog #breadcrumbs,
 .archive #breadcrumbs,
@@ -818,7 +818,7 @@ a img {
   overflow: hidden;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  margin-bottom: 1.5em;
+  /* margin-bottom: 1.5em; */
 }
 
 .featured-image {
@@ -952,7 +952,7 @@ a img {
 @media all and (min-width: 37.5em) {
   .excerpt {
     background: #110800;
-    margin-bottom: 1.5em;
+    /* margin-bottom: 1.5em; */
   }
   .excerpt:first-child {
     padding-top: 0;
@@ -987,7 +987,7 @@ a img {
     position: relative;
     clear: both;
     padding: 0;
-    margin-bottom: 1.5em;
+    /* margin-bottom: 1.5em; */
     opacity: 0.8;
   }
   .excerpt .featured-image {

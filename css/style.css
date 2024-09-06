@@ -69,7 +69,7 @@ body {
   font-family: "raleway", sans-serif;
   line-height: 1.5;
   color: #4d4d4d;
-  background: #222;
+  background: rgba(0,115,150,1);
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
   -ms-word-wrap: break-word;
@@ -83,7 +83,7 @@ body {
 }
 
 .main {
-  background: #222;
+  background: rgba(0,115,150,1);
   padding-bottom: 1.5em;
   margin: 0 auto;
 }
@@ -788,7 +788,7 @@ a img {
   overflow: hidden;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  margin-bottom: 1.5em;
+  /* margin-bottom: 1.5em; */
 }
 
 .featured-image {
@@ -919,7 +919,7 @@ a img {
 }
 
 /* 600 */
-@media all and (min-width: 37.5em) {
+@media all and (min-width: 37.5em) and (max-width: 56.25em) {
   .excerpt {
     background: #111;
     margin-bottom: 1.5em;
@@ -957,7 +957,7 @@ a img {
     position: relative;
     clear: both;
     padding: 0;
-    margin-bottom: 1.5em;
+    /* margin-bottom: 1.5em; */
     opacity: 0.8;
   }
   .excerpt .featured-image {
