@@ -1,4 +1,4 @@
 baseURL = 'https://deviesdevelopment.github.io/opendevies/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Devies' open source"
 theme = 'hugo-nederburg-theme'
