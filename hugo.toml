@@ -18,3 +18,21 @@ theme = 'hugo-nederburg-theme'
   name = "Get in touch"
   url = "https://www.devies.se/contact/"
   weight = 3
+
+  [markup]
+    [markup.goldmark]
+      [markup.goldmark.renderer]
+        unsafe = true
+
+  # Add a writer, then use it in the markdown front matter like this: writer = "Lukas Herman"
+  [params.writers]
+    [params.writers."Peter Makra"]
+    #link = "https://aswe.do"
+    email = "peter.makra@devies.se"
+    bio = [
+      "Nothing special."
+    ]
+    
+    linkedin      = "linkedin.com/in/petermakra"
+    instagram     = "instagram.com/mcraa"
+    github        = "github.com/mcraa"
