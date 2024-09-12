@@ -951,7 +951,7 @@ a img {
 /* 600 */
 @media all and (min-width: 37.5em) {
   .excerpt {
-    background: #110800;
+    background: #007396;
     /* margin-bottom: 1.5em; */
   }
   .excerpt:first-child {

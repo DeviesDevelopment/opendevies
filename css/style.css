@@ -399,7 +399,7 @@ a img {
 .archive .main,
 .search .main {
   width: 88.89%;
-  max-width: 1280px;
+  /* max-width: 1280px; */
 }
 .blog #breadcrumbs,
 .archive #breadcrumbs,
@@ -921,7 +921,7 @@ a img {
 /* 600 */
 @media all and (min-width: 37.5em) and (max-width: 56.25em) {
   .excerpt {
-    background: #111;
+    background: #007396;
     margin-bottom: 1.5em;
   }
   .excerpt:first-child {
