@@ -24,6 +24,12 @@ theme = 'hugo-nederburg-theme'
       [markup.goldmark.renderer]
         unsafe = true
 
+  [params.social]
+  email         = "hello@devies.se"
+  linkedin      = "https://www.linkedin.com/company/deviesdevelopment"
+  instagram     = "https://www.instagram.com/deviesgbg/"
+  github        = "https://www.github.com/deviesdevelopment/"
+
   # Add a writer, then use it in the markdown front matter like this: writer = "Lukas Herman"
   [params.writers]
     [params.writers."Peter Makra"]
