@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Node on Devies' open source</title><link>https://open.devies.se/tags/node/</link><description>Recent content in Node on Devies' open source</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 06 Sep 2024 09:22:43 +0200</lastBuildDate><atom:link href="https://open.devies.se/tags/node/index.xml" rel="self" type="application/rss+xml"/><item><title>Convert anything to PDF</title><link>https://open.devies.se/post/2024_09_06_convert_anything_to_pdf/</link><pubDate>Fri, 06 Sep 2024 09:22:43 +0200</pubDate><guid>https://open.devies.se/post/2024_09_06_convert_anything_to_pdf/</guid><description>&lt;script src="https://www.google.com/recaptcha/api.js">&lt;/script>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Node on Devies' open source</title><link>https://open.devies.se/tags/node/</link><description>Recent content in Node on Devies' open source</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 06 Sep 2024 09:22:43 +0200</lastBuildDate><atom:link href="https://open.devies.se/tags/node/index.xml" rel="self" type="application/rss+xml"/><item><title>Convert anything to PDF</title><link>https://open.devies.se/post/2024_09_06_convert_anything_to_pdf/</link><pubDate>Fri, 06 Sep 2024 09:22:43 +0200</pubDate><guid>https://open.devies.se/post/2024_09_06_convert_anything_to_pdf/</guid><description>&lt;h3 id="try-it-out">Try it out&lt;/h3>
+&lt;div style="background: #d6d5d4; padding: 10px; margin: 5px; box-shadow: 2px 2px 2px gray; border-radius: 3px; font-weight: bold"> 
+&lt;form id="demo-form">
+ &lt;ol>
+ &lt;li>
+ Choose a file &lt;input id="upload-file" type="file">
+ &lt;/li>
+ &lt;li>
+ &lt;span>Enter the result of the calculation with numbers before clicking convert.&lt;/span>
+ &lt;br />
+ &lt;span id="simple-captcha">&lt;/span>
+ &lt;input style="padding: 0; min-height: 5px; width: 50px; line-height: 1" id="captcha-answer" type="text">
+ &lt;/li>
+ &lt;li>
+ &lt;span>Click convert ->&lt;/span>
+ &lt;input style="padding: 0" id="send-file" type="button" value="Convert" onclick="onSubmit()"/>
+ &lt;/li>
+ &lt;li>
+ &lt;span>Get your pdf&lt;/span>
+ &lt;/li>
+ &lt;li>
+ &lt;span>Be happy :)&lt;/span>
+ &lt;/li>
+ &lt;/ol>
+&lt;/form>
+&lt;/div>
+&lt;script src="https://www.google.com/recaptcha/api.js">&lt;/script>
 &lt;script>
  function onSubmit() {
  if ($('input#captcha-answer').val() == window.buzievagy) {
